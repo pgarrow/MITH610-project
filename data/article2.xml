@@ -8,9 +8,10 @@
             <title>ENGL 688K Exercise 1: Practicing TEI with The Diamondback Archive</title>
                      <title type="sub">Court to hear Powell</title>
                      <title type="sub">University of Maryland Digital Edition of The Diamondback</title>
-            <author>Philip Michael Garrow</author>
-                    <persName xml :id="PMG">Philip Michael Garrow</persName>
-                    <orgName xml :id="ENGL 688K">ENGLISH CLASS 688K Critical Topics In Digital Studies</orgName>
+                     <author>Philip Michael Garrow
+                             <persName xml:id="PMG">Philip Michael Garrow</persName>
+                             <orgName xml:id="ENGL-688K">English Class 688K Critical Topics In Digital Studies</orgName>
+                             </author>
             <respStmt><resp>To employ TEI in an ethical, responsible manner that increases the visibility of black digital humanities</resp>
             <resp>Encoded by</resp>
             <persName ref="#PMG">Philip Michael Garrow</persName>
