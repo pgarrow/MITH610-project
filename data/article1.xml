@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ENGL 688K Exercise 1 Practicing TEI with The Diamondback Archive$</title>
+            <title>ENGL 688K Exercise 1 Practicing TEI with The Diamondback Archive</title>
                      <title type="sub">Powell's power lifted; Adam's army arrives</title>
                      <title type="sub">University of Maryland Digital Edition of The Diamondback</title>
             <author>Philip Michael Garrow
@@ -15,7 +15,7 @@
             <respStmt><resp>To employ TEI in an ethical, responsible manner that increases the visibility of black digital humanities</resp>
             <resp>Encoded by</resp>
             <persName ref="#PMG">Philip Michael Garrow</persName>
-            </respStmt>
+          </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher><orgName ref="#ENGL-688K">English Class 688K Critical Topics In Digital Studies</orgName></publisher>
@@ -46,6 +46,7 @@
                  </biblStruct>
                  </listBibl>
          </sourceDesc>
+               </fileDesc>
          <encodingDesc>
              <editorialDecl>
                  <p>All known errors identified in the original text were retained and identified via "sic"</p>
@@ -58,24 +59,27 @@
                </langUsage>
                <particDesc>
                    <listPerson>
-                   </person>
                    <personGrp>
+                     <persName> xml:id="TL">Ted Linzey</persName>
                        <persName xml:id="BLK">Black and African American people</persName>
-                       <note>This person group is a current accepted term for what the original text labels "the Negro"</note>
+                       <note>This person group is a current accepted term for what the original text labels "the Negro." It does not appear in either article.</note>
                    </personGrp>
                    <personGrp>
                        <persName xml:id="NEGRO">the Negro people (historically gendered male)</persName>
                        <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American</note>
                    </personGrp>
                </listPerson>
-      </fileDesc>
+               </particDesc>
+               </profileDesc>
   </teiHeader>
   <text>
       <body>
-         <div type="article">
+                   <div type="article">
+              <head rend="center">
+                  <title type="main">Powell's power lifted; Adam's army arrives</title>
+              </head>
            <cb n="1"/>
            <byline>By <forename>Ted</forename> <surname>Linzey</surname></byline>
-                 <persName ref="#TL">Ted Linzey</persName>
          <p>They came from just about<lb/>
           everywhere. <placeName>New York</placeName>, <placeName>Phil-<lb break="no"/>­a­delphia</placeName>,
            <placeName>the District</placeName>, and some<lb/>
@@ -115,7 +119,7 @@
          <p>A younger bearded sympathi-<lb break="no"/>­
          zer shouted that violence was<lb/>
           necessary. “The only way is<lb/>
-           the <orgName>Mau Mau</orgName> way," he screamed.<lb/>
+           the <orgName>Mau Mau</orgName>way," he screamed.<lb/>
             “Let’s use <orgName>Mau Mau</orgName> tactics,"<lb/>
              he tried again. He was shat-<lb break="no"/>­
              ­tered by the cries of “Peace,<lb/>
@@ -271,7 +275,7 @@
          <p>Soon it was over and <persName><surname>Powell</surname></persName><lb/>
           struggled toward his car. The<lb/>
            crowd was everywhere. Once<lb/>
-            <persName><suranme>Powell</surname></persName> was inside they refused<lb/>
+            <persName><surname>Powell</surname></persName> was inside they refused<lb/>
              to leave his side. They tried<lb/>
               to touch him through the glass<lb/>
                and metal. The sleek limousine<lb/>

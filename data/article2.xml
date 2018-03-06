@@ -17,11 +17,10 @@
             <persName ref="#PMG">Philip Michael Garrow</persName>
             </respStmt>
          </titleStmt>
-         <author><placeName>New York</placeName><orgName><name full="abb">AP</name>Associated Press</orgName></author>
          <publicationStmt>
-            <p><orgName ref="#ENGL 688K"</orgName>
+            <publisher><orgName ref="#ENGL-688K">English Class 688K Critical Topics In Digital Studies</orgName></publisher>
             <pubPlace>0301 Hornbake Library 4130 Campus Drive University of Maryland College Park, MD 20742</pubPlace>
-            <date when="2018-03-6">March 6, 2018</date>
+            <date when="2018-03-06">March 06, 2018</date>
          </publicationStmt>
          <sourceDesc>
              <listBibl>
