@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ENGL 688K Exercise 1 Practicing TEI with The Diamondback Archive</title>
+                     <title type="sub">Powell's power lifted; Adam's army arrives</title>
+                     <title type="sub">University of Maryland Digital Edition of The Diamondback</title>
+            <author>Philip Michael Garrow
+                    <persName xml:id="PMG">Philip Michael Garrow</persName>
+                    <orgName xml:id="ENGL-688K">English Class 688K Critical Topics In Digital Studies</orgName>
+                    </author>
+            <respStmt><resp>To employ TEI in an ethical, responsible manner that increases the visibility of black digital humanities</resp>
+            <resp>Encoded by</resp>
+            <persName ref="#PMG">Philip Michael Garrow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher><orgName ref="#ENGL-688K">English Class 688K Critical Topics In Digital Studies</orgName></publisher>
+            <pubPlace>0301 Hornbake Library 4130 Campus Drive University of Maryland College Park, MD 20742</pubPlace>
+            <date when="2018-03-06">March 06, 2018</date>
+         </publicationStmt>
+         <sourceDesc>
+             <listBibl>
+             <biblStruct>
+                 <analytic>
+                     <title>Powell's power lifted; Adam's army arrives</title>
+                     <author><persName xml:id="TL">Ted Linzey</persName></author>
+                 </analytic>
+                 <monogr>
+                     <title level="j">The Diamondback</title>
+                     <imprint>
+                         <publisher>Maryland Media Inc.</publisher>
+                         <pubPlace>
+                             <region>College Park</region>
+                             <settlement>Maryland</settlement>
+                         </pubPlace>
+                         <date when="1967-01-12">January 12, 1967</date>
+                     </imprint>
+                     <biblScope unit="volume">59</biblScope>
+                     <biblScope unit="number">56</biblScope>
+                     <biblScope unit="page">9</biblScope>
+                   </monogr>
+                 </biblStruct>
+                 </listBibl>
+         </sourceDesc>
+         <encodingDesc>
+             <editorialDecl>
+                 <p>All known errors identified in the original text were retained and identified via "sic"</p>
+                 <p>Original formatting, to include columns, paragraphs, line breaks, and hyphenation retained. Page jumps and paragrareaks.</p>
+             </editorialDecl>
+           </encodingDesc>
+           <profileDesc>
+               <langUsage>
+                   <language ident="en-US">United States English</language>
+               </langUsage>
+               <particDesc>
+                   <listPerson>
+                   </person>
+                   <personGrp>
+                       <persName xml:id="BLK">Black and African American people</persName>
+                       <note>This person group is a current accepted term for what the original text labels "the Negro"</note>
+                   </personGrp>
+                   <personGrp>
+                       <persName xml:id="NEGRO">the Negro people (historically gendered male)</persName>
+                       <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American</note>
+                   </personGrp>
+               </listPerson>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="article">
+           <cb n="1"/>
+           <byline>By <forename>Ted</forename> <surname>Linzey</surname></byline>
+                 <persName ref="#TL">Ted Linzey</persName>
+         <p>They came from just about<lb/>
+          everywhere. <placeName>New York</placeName>, <placeName>Phil-<lb break="no"/>­a­delphia</placeName>,
+           <placeName>the District</placeName>, and some<lb/>
+            from <placeName>Chicago</placeName>. They came by<lb/>
+             bus, train, car and on foot.<lb/>
+             They all came for the same<lb/>
+              thing. They came because <persName>Adam</persName><lb/>
+               was in trouble and therefore<lb/>
+                they were in trouble too.</p>
+         <p>Yesterday <persName><forename>Adam</forename> Clayton<lb/>
+          <surname>Powell</surname></persName> had been stripped of his<lb/>
+           committee chairmanship and to-<lb break="no"/>­­
+           day he may be denied his seat<lb/>
+            in <orgName>Congress</orgName>. They were there<lb/>
+             to let people know that this was not to their liking.</p>
+         <p>The atmosphere on the <placeName>Capitol</placeName><lb/>
+          steps was one of a mixed vapor<lb/>
+           of injustice, impatience and im-<lb break="no"/>­­
+           potence. Some of the collected<lb/>
+             gathering wore buttons proclaim-<lb break="no"/>­­
+             ing “Black Power," “Justice for<lb/>
+               Powell and Harlem" and ‘Free­-<lb break="no"/>
+               ­dom <sic>Now</sic>." A few of the crowd,lb/>
+                 became orators, became hoarse<lb/>
+                  and became silent. Most milled<lb/>
+                   around in silence.</p>
+         <p><persName><forename>Marion</forename><surname>Barry</surname></persName>, head of the local<lb/>
+          <orgName>SNCC</orgName> organization was there. He<lb/>
+           was bearded and dapper in ap-<lb break="no"/>
+           ­­pearance. He was also the chant-<lb break="no"/>­
+            ­ maker as a dozen Negroes joined<lb/>
+            hands to exhort “Black Power."<lb/>
+             He led the transition to “Bring<lb/>
+              the Black Troops Home" to “Po-<lb break="no"/>­
+              ­litical intervention" to “Self-de-<lb break="no"/>­
+              ­termination." This lasted only a few minutes.</p>
+         <p>A younger bearded sympathi-<lb break="no"/>­
+         zer shouted that violence was<lb/>
+          necessary. “The only way is<lb/>
+           the <orgName>Mau Mau</orgName> way," he screamed.<lb/>
+            “Let’s use <orgName>Mau Mau</orgName> tactics,"<lb/>
+             he tried again. He was shat-<lb break="no"/>­
+             ­tered by the cries of “Peace,<lb/>
+              Brother" amidst the general si-<lb break="no"/>­
+              ­lence.</p>
+         <p>The <persName>"Queen Mother"</persName>, brightly<lb/>
+          bedecked in robe and bandana,<lb/>
+           began a 30 minute spiel covering<lb/>
+            the Bible, the history of the Negro<lb/>
+             in American politics and the his-<lb break="no"/>­
+             ­tory that was being made that<lb/>
+              day. She was encouraged by<lb/>
+               shouts of “you right, Mother"<lb/>
+                and "tell it like it is, mom.<sic>missing quote mark in original</sic><lb/>
+                 She was rewarded for her ef­-<lb break="no"/>­
+                 forts by a five dollar bill passed<lb/>
+                  to her from a man in a heavy<lb/>
+                   raccoon coat.</p>
+        <p>A light-skinned man followed<lb/>
+          her as the impromtu speaker of<lb/>
+           the moment. He described the<lb/>
+            three fronts that confront the<lb/>
+            <cb n="2"/>
+             people of the country. The first<lb/>
+              was <placeName>Vietnam</placeName>. The second was<lb/>
+               the approaching shooting-war be-<lb break="no"/>­
+               ­ tween <placeName>Jordan</placeName> and <placeName>Israel</placeName>. This,lb/>
+                signaled the third front he said<lb/>
+                 because the Jews were taking<lb/>
+                  over the country. “Those white<lb/>
+                   policemen down there,* he point-<lb break="no"/>­
+                   ­ed, “and these white reporters<lb/>
+                    here are slaves too. ‘The Jew<lb/>
+                     runs this <orgName>Congress</orgName>, this town and<lb/>
+                      this country," he continued.</p>
+         <p>The crowd on the steps of the<lb/>
+          House wing of the <placeName>Capitol</placeName>, pre­-<lb break="no"/>­
+          dominantly Negro, often over­-<lb break="no"/>­
+          flowed into the street. They<lb/>
+           were herded back by blue-coated<lb/>
+            policemen who were everywhere.<lb/>
+             Across the street, curious on­-<lb break="no"/>­
+             lookers paused to watch the pro-<lb break="no"/>­
+             ­ceedings. Over there the crowd<lb/>
+              was mostly white and amused.</p>
+         <p>Someone burned a draft card<lb/>
+          and was cheered for his action.<lb/>
+           Someone else copied this <sic>firey</sic><lb/>
+            demonstration and soon another<lb/>
+             and another. The chant of “Burn<lb/>
+              Baby, Burn" began to echo across<lb/>
+               the street and into the park.</p>
+         <p>The crowd waited. <persName><forename>Adam</forename></persName> was<lb/>
+          scheduled to appear at 1:45 p.m.<lb/>
+           and there was nothing to do but<lb/>
+            wait. Another orator appeared.<lb/>
+             He was tired of “hanging on."<lb/>
+              “My mother told me to hang<lb/>
+               on," he said. “Everybody tells<lb/>
+                me to hang on. I don’t want to<lb/>
+                 hang on anymore. I want to be<lb/>
+                  free and I want unity." The word<lb/>
+                   caught the tongues of the crowd.<lb/>
+                    “Unity! Unity!”, rippled through<lb/>
+                     the charged air.</p>
+         <p>Someone sat down. Several<lb/>
+          more followed suit. Angry voices<lb/>
+           urged them back onto their feet.<lb/>
+            “We been sitting down long<lb/>
+             enough. Get up, Brothers and<lb/>
+              sisters. We are going to wait<lb/>
+               for the man and then we move.<sic>missing end quotation in original</sic></p>
+         <p>“Which way?," someone asked.<lb/>
+          “That way !" was the answer as<lb/>
+           a manpointed<sic>missing space in original</sic> to the door of the<lb/>
+            House which was blocked by a<lb/>
+             solid wall of blue-coats. The<lb/>
+              ranks cheered and then resumed<lb/>
+               waiting.</p>
+         <p><persName><surname>Powell</surname></persName> was 20 minutes over-<lb break="no"/>­
+         ­ due to appear. The crowd grew<lb/>
+          more restless. There was a<lb/>
+           flurry of movement in the tun­-<lb break="no"/>­
+           nel under the steps. The mass<lb/>
+            of humans surged in that di­-<lb break="no"/>­
+            rection. Photographers fought<lb/>
+             for position among the pushing<lb/>
+              bodies. Stationary cameras<lb/>
+               focused on empty space and their<lb/>
+                cameramen cursed this misfor­-<lb break="no"/>­
+                tune.</p>
+         <p>It was not <persName><forename>Adam</forename></persName>. A spokes-<lb break="no"/>­
+         ­ man repeated to the crowd what<lb/>
+          he had heard. <persName><surname>Powell</surname></persName> had left<lb/>
+           but would return in five minutes.<lb/>
+            The crowd was stunned and then<lb/>
+             recovered. “What was the vote?",<sic>comma outside quotation in original</sic>
+                   <cb n="3"/>
+              someone shouted and others<lb/>
+               echoed. There was still no word<lb/>
+                on the balloting of the Repre-<lb break="no"/>­
+                ­sentatives concerning <persName><surname>Powell</surname></persName>’s<lb/>
+                 seating. The group slowly moved<lb/>
+                  back on the steps. The abandoned<lb/>
+                   cameraman heaved, a sigh of<lb/>
+                    relief.</p>
+         <p><persName><surname>Powell</surname></persName> had not been seated they<lb/>
+          knew. Angry voices rose above<lb/>
+           the muttering. “They see the<lb/>
+            handwriting on the wall. That's<lb/>
+             why they stripped him of his<lb/>
+              power. They ain’t seen a revo-<lb break="no"/>­
+              ­lution yet." A well-dressed man<lb/>
+               spoke to his companion, “I<lb/>
+                been around. I been in a war<lb/>
+                 and I have never seen it like<lb/>
+                  this."</p>
+         <p>There was another flurry of<lb/>
+          activity under the steps and the<lb/>
+           crowd moved. A man was ar-<lb break="no"/>­
+           ­rested and the people appeared<lb/>
+            ready to vent their anger and<lb/>
+             frustration. A large group of<lb/>
+              the more militant swarmed<lb/>
+               across the street. Photogra-<lb break="no"/>­
+               ­phers followed but kept a safe<lb/>
+                distance. It was an uneasy<lb/>
+                 moment.</p>
+         <p>Then the man appeared. He<lb/>
+          emerged from his car and be-<lb break="no"/>­
+          ­gan walking the last 75 yards<lb/>
+           to the steps. He was instant­-<lb break="no"/>­
+           ly inundated by his flock. They<lb/>
+            screamed his name and clawed<lb/>
+             their way toward him.</p>
+         <p><persName><surname>Powell</surname></persName> stopped to speak at<lb/>
+         the bottom of the steps but the<lb/>
+          crowd was too great, too ex-<lb break="no"/>­
+          ­cited. They thrust him up, up<lb/>
+           until all could see. In the crush<lb/>
+            cameras were knocked over but<lb/>
+             the crowd surged on. Finally<lb/>
+              he was able to turn and he<lb/>
+               spoke.</p>
+         <p>They listened attentively. He<lb/>
+          could say no wrong. He said<lb/>
+           they no longer had a representa-<lb break="no"/>­
+           ­tive in <orgName>Congress</orgName>. “You are our<lb/>
+            representative, Adam," the<lb/>
+             voices in unison disagree. “Adam<lb/>
+              for President," they chorused to<lb/>
+               the idea of a third party.</p>
+         <p>Soon it was over and <persName><surname>Powell</surname></persName><lb/>
+          struggled toward his car. The<lb/>
+           crowd was everywhere. Once<lb/>
+            <persName><suranme>Powell</surname></persName> was inside they refused<lb/>
+             to leave his side. They tried<lb/>
+              to touch him through the glass<lb/>
+               and metal. The sleek limousine<lb/>
+                moved off slowly and they hung<lb/>
+                 on for blocks.</p>
+         <p>Back on the steps the cameras<lb/>
+          were dismantled and put away.<lb/>
+           Down on the street weary <sic>police-<lb break="no"/>­
+           ­ man</sic> made their way toward the<lb/>
+            station. Across the street, the<lb/>
+             curious were satisfied with what<lb/>
+              they had seen and departed.<lb/>
+               <persName><forename>Adam</forename></persName>'s army had not won the<lb/>
+                <sic>war-</sic> had not even won the bat-<lb break="no"/>­
+                ­tle - but they had been there.</p></div>
+      </body>
+  </text>
+</TEI>

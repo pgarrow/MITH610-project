@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ENGL 688K Exercise 1: Practicing TEI with The Diamondback Archive</title>
+                     <title type="sub">Court to hear Powell</title>
+                     <title type="sub">University of Maryland Digital Edition of The Diamondback</title>
+            <author>Philip Michael Garrow</author>
+                    <persName xml :id="PMG">Philip Michael Garrow</persName>
+                    <orgName xml :id="ENGL 688K">ENGLISH CLASS 688K Critical Topics In Digital Studies</orgName>
+            <respStmt><resp>To employ TEI in an ethical, responsible manner that increases the visibility of black digital humanities</resp>
+            <resp>Encoded by</resp>
+            <persName ref="#PMG">Philip Michael Garrow</persName>
+            </respStmt>
+         </titleStmt>
+         <author><placeName>New York</placeName><orgName><name full="abb">AP</name>Associated Press</orgName></author>
+         <publicationStmt>
+            <p><orgName ref="#ENGL 688K"</orgName>
+            <pubPlace>0301 Hornbake Library 4130 Campus Drive University of Maryland College Park, MD 20742</pubPlace>
+            <date when="2018-03-6">March 6, 2018</date>
+         </publicationStmt>
+         <sourceDesc>
+             <listBibl>
+             <biblStruct>
+                 <analytic>
+                     <title>Court to hear Powell</title>
+                     <author><orgName xml:id="AP">Associated Press</orgName></author>
+                 </analytic>
+                 <monogr>
+                     <title level="j">The Diamondback</title>
+                     <imprint>
+                         <publisher>Maryland Media Inc.</publisher>
+                         <pubPlace>
+                             <region>College Park</region>
+                             <settlement>Maryland</settlement>
+                         </pubPlace>
+                         <date when="1968-11-19">November 19, 1968</date>
+                     </imprint>
+                     <biblScope unit="volume">61</biblScope>
+                     <biblScope unit="number">48</biblScope>
+                     <biblScope unit="page">2</biblScope>
+         </sourceDesc>
+         <encodingDesc>
+             <editorialDecl>
+                 <p>All known errors identified in the original text were retained and identified via "sic"</p>
+                 <p>Original formatting, to include columns, paragraphs, line breaks, and hyphenation retained. Page jumps and paragrareaks.</p>
+             </editorialDecl>
+           </encodingDesc>
+           <profileDesc>
+               <langUsage>
+                   <language ident="en-US">United States English</language>
+               </langUsage>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="article">
+           <cb n="1"/>
+           <byline>New York AP</byline>
+                 <orgName ref="#AP">Associated Press</orgName>
+         <p><placeName>NEW YORK</placeName><orgName ref="#AP">(AP)</orgName>--Congressman-elect <persName><forename>Adam</forename> Clayton Pow­-<lb break="no"/>­­
+         ell<surname>Powell</surname></persName> hailed as “monumental" yesterday a <orgName>U.S. Supreme Court</orgName><lb/>
+          decision to hear his suit against the House of Representa­-<lb break="no"/>
+          tives’ decision to exclude him in 1967.</p>
+         <p> Proclaiming himself “extremely gratified," <persName><surname>Powell</surname></persName> told<lb/>
+          a news conference the decision showed “we are now living<lb/>
+          again in a republic with three branches of government."</p>
+         <p> The flamboyant <orgName>Democrat</orgName>, who had 22 years’ seniority<lb/>
+          at the time of his exclusion from <orgName>Congress</orgName>, was re-elected<lb/>
+          by an overwhelming majority the same year and again in the<lb/>
+          general election <date when="Nov.5">November 5, 1968</date> Nov. 5.</p>
+          Powell<sic>missing possessive</sic> suit alleged that the House of Representatives acted<lb/>
+          unconstitutionally in excluding him.  When asked whether he<lb/>
+          was optimistic about the <orgName>Supreme Court</orgName>’s decision in the<lb/>
+          case, he said, “I’ve always been optimistic."</p>
+          While stepping into the <persName><surname>Powell</surname></persName> case, the <orgName>court<sic>missing capitalization</sic></orgName> also upheld<lb/>
+          <placeName>Arkansas</placeName>’ “full-crew” railroad laws and took on three major<lb/>
+          appeals.</p>
+          <placeName>Arkansas</placeName> laws, upheld by a 7-1 voted<sic>unnecessary letter "d"</sic>, require railroads<lb/>
+          to put more crewmen on trains than the railroads say are<lb/>
+          necessary. In October 1967 a federal court in Hot Springs<lb/>
+          threw the laws out, saying they put an illegal burden on<lb/>
+          railroads that operated through <placeName>Arkansas</placeName>.
+          From <placeName>Delaware</placeName> comes the Miranda case where <persName><forename>Thornton</foreName><lb/>
+          A. <surname>Jenkins</surname></persName> was first sentenced to death for Wilmington murder<lb/>
+          and later, on retrial, to life in prison.</p>
+          <persName><surname>Jenkins</surname></persName> was first tried in <date when="January 1966">January 1966</date>, five months before<lb/>
+          the <orgName>Supreme Court</orgName> required police, under what has become<lb/>
+          known as the Miranda rule, to advise suspects they don’t<lb/>
+          have to answer any questions and that they are entitled to a lawyer.</p>
+          <placeName>Ohio</placeName>’s syndicalism law makes it a crime to advocate vio-<lb break="no"/>
+          ­lence or terror to accomplish political change. A convicted<lb/>
+          <placeName>Cincinnati</placeName> man, <persName><forename>Clarence</foreName> <surname>Brandenberg</surname></persName>, claims the law il­-<lb break="no"/>
+          legally regulates speech.</p></div>
+      </body>
+  </text>
+</TEI>
