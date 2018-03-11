@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ENGL 688K Exercise 1 Practicing TEI with The Diamondback Archive</title>
+            <title>ENGL 688K Exercise 1 Article 1 Practicing TEI with The Diamondback Archive</title>
                      <title type="sub">Powell's power lifted; Adam's army arrives</title>
                      <title type="sub">University of Maryland Digital Edition of The Diamondback</title>
             <author>Philip Michael Garrow
@@ -20,7 +20,7 @@
          <publicationStmt>
             <publisher><orgName ref="#ENGL-688K">English Class 688K Critical Topics In Digital Studies</orgName></publisher>
             <pubPlace>0301 Hornbake Library 4130 Campus Drive University of Maryland College Park, MD 20742</pubPlace>
-            <date when="2018-03-06">March 06, 2018</date>
+            <date when="2018-03-14">March 14, 2018</date>
          </publicationStmt>
          <sourceDesc>
              <listBibl>
@@ -58,9 +58,19 @@
                    <language ident="en-US">United States English</language>
                </langUsage>
                <particDesc>
+                 <listOrg>
+                     <org>
+                         <orgName xml:id="HOUSE" ref="https://lccn.loc.gov/no2017160587">United States Congress 90th Session 1967-1968 House of Representatives</orgName>
+                         <idno type="LCAF">2017160587 </idno>
+                         <placeName>
+                             <settlement>Washington</settlement>
+                             <region>District of Columbia (<abbr>D.C.</abbr>)</region>
+                             <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                         </placeName>
+                     </org>
+                     </listOrg>
                    <listPerson>
                    <personGrp>
-                     <persName> xml:id="TL">Ted Linzey</persName>
                        <persName xml:id="BLK">Black and African American people</persName>
                        <note>This person group is a current accepted term for what the original text labels "the Negro." It does not appear in either article.</note>
                    </personGrp>
@@ -68,6 +78,31 @@
                        <persName xml:id="NEGRO">the Negro people (historically gendered male)</persName>
                        <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American</note>
                    </personGrp>
+                       <person>
+                           <persName xml:id="POWELL" ref="https://lccn.loc.gov/n82012171">
+                               <forename>Adam</forename>
+                               <forename>Clayton</forename>
+                               <surname>Powell</surname>
+                               <roleName type="office">United States Congressmen, <orgName ref="#HOUSE">United States House of Representatives</orgName></roleName>
+                               <idno type="LCAF">no 82012171 </idno>
+                           </persName>
+                       </person>
+                       <person>
+                           <persName xml:id="BARRY" ref="https://lccn.loc.gov/n79133535">
+                               <forename>Marion</forename>
+                               <surname>Barry</surname>
+                               <roleName type="office">First Chairman, <orgName ref="#SNCC">Student Nonviolent Coordinating Committee</orgName></roleName>
+                               <idno type="LCAF">no 79133535 </idno>
+                           </persName>
+                       </person>
+                       <person>
+                           <persName xml:id="QUEEN-MOTHER" ref="https://lccn.loc.gov/no90025069">
+                               <forename>Audley</forename>
+                               <surname>Moore</surname>
+                               <roleName type="office">Civil Rights Activist</roleName>
+                               <idno type="LCAF">no 90025069 </idno>
+                           </persName>
+                       </person>
                </listPerson>
                </particDesc>
                </profileDesc>

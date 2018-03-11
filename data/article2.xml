@@ -5,7 +5,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ENGL 688K Exercise 1: Practicing TEI with The Diamondback Archive</title>
+            <title>ENGL 688K Exercise 1 Article 2 Practicing TEI with The Diamondback Archive</title>
                      <title type="sub">Court to hear Powell</title>
                      <title type="sub">University of Maryland Digital Edition of The Diamondback</title>
                      <author>Philip Michael Garrow
@@ -20,7 +20,7 @@
          <publicationStmt>
             <publisher><orgName ref="#ENGL-688K">English Class 688K Critical Topics In Digital Studies</orgName></publisher>
             <pubPlace>0301 Hornbake Library 4130 Campus Drive University of Maryland College Park, MD 20742</pubPlace>
-            <date when="2018-03-06">March 06, 2018</date>
+            <date when="2018-03-14">March 14, 2018</date>
          </publicationStmt>
          <sourceDesc>
              <listBibl>
@@ -42,7 +42,11 @@
                      <biblScope unit="volume">61</biblScope>
                      <biblScope unit="number">48</biblScope>
                      <biblScope unit="page">2</biblScope>
+                   </monogr>
+                 </biblStruct>
+                 </listBibl>
          </sourceDesc>
+               </fileDesc>
          <encodingDesc>
              <editorialDecl>
                  <p>All known errors identified in the original text were retained and identified via "sic"</p>
@@ -53,15 +57,64 @@
                <langUsage>
                    <language ident="en-US">United States English</language>
                </langUsage>
-      </fileDesc>
+               <particDesc>
+                 <listOrg>
+                     <org>
+                         <orgName xml:id="HOUSE" ref="https://lccn.loc.gov/no2017160587">United States Congress 90th Session 1967-1968 House of Representatives</orgName>
+                         <idno type="LCAF">2017160587 </idno>
+                         <placeName>
+                             <settlement>Washington</settlement>
+                             <region>District of Columbia (<abbr>D.C.</abbr>)</region>
+                             <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                         </placeName>
+                     </org>
+                     <org>
+                         <orgName xml:id="SUPREME-COURT" ref="https://lccn.loc.gov/n79006848">United States Supreme Court</orgName>
+                         <idno type="LCAF">79006848</idno>
+                         <placeName>
+                             <settlement>Washington</settlement>
+                             <region>District of Columbia (<abbr>D.C.</abbr>)</region>
+                             <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                         </placeName>
+                     </org>
+                     <org>
+                         <orgName xml:id="A-P" ref="https://lccn.loc.gov/n80075894">Associated Press</orgName>
+                         <idno type="LCAF">80075894 </idno>
+                         <placeName>
+                             <settlement>New York City</settlement>
+                             <region>New England</region>
+                             <country>United States of America (<abbr>U.S.A.</abbr>)</country>
+                         </placeName>
+                     </org>
+                     </listOrg>
+                   <listPerson>
+                   <personGrp>
+                       <persName xml:id="BLK">Black and African American people</persName>
+                       <note>This person group is a current accepted term for what the original text labels "the Negro." It does not appear in either article.</note>
+                   </personGrp>
+                   <personGrp>
+                       <persName xml:id="NEGRO">the Negro people (historically gendered male)</persName>
+                       <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American</note>
+                   </personGrp>
+                       <person>
+                           <persName xml:id="POWELL" ref="https://lccn.loc.gov/n82012171">
+                               <forename>Adam</forename>
+                               <forename>Clayton</forename>
+                               <surname>Powell</surname>
+                               <roleName type="office">United States Congressmen, <orgName ref="#HOUSE">United States House of Representatives</orgName></roleName>
+                               <idno type="LCAF">no 82012171 </idno>
+                           </persName>
+                       </person>
+                     </listPerson>
+                     </particDesc>
+                     </profileDesc>
   </teiHeader>
   <text>
       <body>
          <div type="article">
            <cb n="1"/>
            <byline>New York AP</byline>
-                 <orgName ref="#AP">Associated Press</orgName>
-         <p><placeName>NEW YORK</placeName><orgName ref="#AP">(AP)</orgName>--Congressman-elect <persName><forename>Adam</forename> Clayton Pow­-<lb break="no"/>­­
+         <p><placeName>NEW YORK</placeName><orgName ref="A-P">(AP)</orgName>--Congressman-elect <persName><forename>Adam</forename> Clayton Pow­-<lb break="no"/>­­
          ell<surname>Powell</surname></persName> hailed as “monumental" yesterday a <orgName>U.S. Supreme Court</orgName><lb/>
           decision to hear his suit against the House of Representa­-<lb break="no"/>
           tives’ decision to exclude him in 1967.</p>
@@ -71,8 +124,8 @@
          <p> The flamboyant <orgName>Democrat</orgName>, who had 22 years’ seniority<lb/>
           at the time of his exclusion from <orgName>Congress</orgName>, was re-elected<lb/>
           by an overwhelming majority the same year and again in the<lb/>
-          general election <date when="Nov.5">November 5, 1968</date> Nov. 5.</p>
-          Powell<sic>missing possessive</sic> suit alleged that the House of Representatives acted<lb/>
+          general election <date when="1968-11-05">November 5, 1968</date> Nov. 5.</p>
+          Powell <sic>missing possessive</sic> suit alleged that the House of Representatives acted<lb/>
           unconstitutionally in excluding him.  When asked whether he<lb/>
           was optimistic about the <orgName>Supreme Court</orgName>’s decision in the<lb/>
           case, he said, “I’ve always been optimistic."</p>
