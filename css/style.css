@@ -13,6 +13,10 @@ tei-supplied {
   font-style: italic;
 }
 
-tei-orgName {font-style: italic;}
-tei-persName {font-style: bold;}
-tei-persName {color: black;}
+tei-orgName {color: blue}
+
+tei-supplied {
+  font-style: bold;
+}
+tei-persName {color: red;}
+tei-placeName {color: green;}
