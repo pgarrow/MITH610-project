@@ -15,6 +15,7 @@
             <respStmt><resp>To employ TEI in an ethical, responsible manner that increases the visibility of black digital humanities</resp>
             <resp>Encoded by</resp>
             <persName ref="#PMG">Philip Michael Garrow</persName>
+            <note>The author owes a heavy debt to other mentors for their assistance in the execution of this project. TEI and HTML encoding tips provided by Dr. Raff Viglianti, University of Maryland Maryland Institute for Technology in the Humanities (MITH). TEI Header template and profile description format provided by Dr. Jessica Lu, University of Maryland Postdoctoral Associate to the African American History, Culture, and Digital Humanities (AADHum) initiative.</note>
           </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -72,11 +73,11 @@
                    <listPerson>
                    <personGrp>
                        <persName xml:id="BLK">Black and African American people</persName>
-                       <note>This person group is a current accepted term for what the original text labels "the Negro." It does not appear in either article.</note>
+                       <note>This person group is a current accepted term for what the original text sometimes labels "the Negro." It is used twice in the article.</note>
                    </personGrp>
                    <personGrp>
                        <persName xml:id="NEGRO">the Negro people (historically gendered male)</persName>
-                       <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American</note>
+                       <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American. It is used twice in the article.</note>
                    </personGrp>
                        <person>
                            <persName xml:id="POWELL" ref="https://lccn.loc.gov/n82012171">
@@ -85,6 +86,7 @@
                                <surname>Powell</surname>
                                <roleName type="office">United States Congressmen, <orgName ref="#HOUSE">United States House of Representatives</orgName></roleName>
                                <idno type="LCAF">no 82012171 </idno>
+                               <note>Full name Adam Clayton Powell, Junior. First African American elected to represent Harlem in the United States House of Representatives.</note>
                            </persName>
                        </person>
                        <person>
@@ -101,7 +103,7 @@
                                <surname>Moore</surname>
                                <roleName type="office">Civil Rights Activist</roleName>
                                <idno type="LCAF">no 90025069 </idno>
-                               <note>Queen mother</note>
+                               <note>As listed on the Library of Congress Authorities page cited here, Audley Moore was the founder of both "the Queen Mother Moore Research Institute and the Eloise Moore College of African Studies and Vocational and Industrial School in the Catskill Mountains."</note>
                            </persName>
                        </person>
                </listPerson>
@@ -137,7 +139,7 @@
            of injustice, impatience and im-<lb break="no"/>­­
            potence. Some of the collected<lb/>
              gathering wore buttons proclaim-<lb break="no"/>­­
-             ing “Black Power," “Justice for<lb/>
+             ing “<persName>Black Power</persName>," “Justice for<lb/>
                <persName><surname>Powell</surname></persName> and <placeName>Harlem</placeName>" and ‘Free­-<lb break="no"/>
                ­dom <sic>Now</sic>." A few of the crowd<lb/>
                  became orators, became hoarse<lb/>
@@ -147,10 +149,10 @@
           <orgName>SNCC</orgName> organization was there. He<lb/>
            was bearded and dapper in ap-<lb break="no"/>
            ­­pearance. He was also the chant-<lb break="no"/>­
-            ­ maker as a dozen Negroes joined<lb/>
-            hands to exhort “Black Power."<lb/>
+            ­ maker as a dozen <persName>Negroes</persName> joined<lb/>
+            hands to exhort “<persName>Black Power</persName>."<lb/>
              He led the transition to “Bring<lb/>
-              the Black Troops Home" to “Po-<lb break="no"/>­
+              the <persName>Black Troops</persName> Home" to “Po-<lb break="no"/>­
               ­litical intervention" to “Self-de-<lb break="no"/>­
               ­termination." This lasted only<lb/>
                a few minutes.</p>
@@ -161,7 +163,7 @@
             “Let’s use <orgName>Mau Mau</orgName> tactics,"<lb/>
              he tried again. He was shat-<lb break="no"/>­
              ­tered by the cries of “Peace,<lb/>
-              Brother" amidst the general si-<lb break="no"/>­
+              <persName>Brother</persName>" amidst the general si-<lb break="no"/>­
               ­lence.</p>
          <p>The <persName>"Queen Mother"</persName>, brightly<lb/>
           bedecked in robe and bandana,<lb/>
@@ -190,12 +192,12 @@
                   over the country. “Those white<lb/>
                    policemen down there,* he point-<lb break="no"/>­
                    ­ed, “and these white reporters<lb/>
-                    here are slaves too. ‘The Jew<lb/>
+                    here are <persName>slaves</persName> too. ‘The Jew<lb/>
                      runs this <orgName>Congress</orgName>, this town and<lb/>
                       this country," he continued.</p>
          <p>The crowd on the steps of the<lb/>
           House wing of the <placeName>Capitol</placeName>, pre­-<lb break="no"/>­
-          dominantly Negro, often over­-<lb break="no"/>­
+          dominantly <persName>Negro</persName>, often over­-<lb break="no"/>­
           flowed into the street. They<lb/>
            were herded back by blue-coated<lb/>
             policemen who were everywhere.<lb/>
@@ -227,7 +229,7 @@
           more followed suit. Angry voices<lb/>
            urged them back onto their feet.<lb/>
             “We been sitting down long<lb/>
-             enough. Get up, Brothers and<lb/>
+             enough. Get up, <persName>Brothers</persName> and<lb/>
               sisters. We are going to wait<lb/>
                for the man and then we move.<sic>[sic: missing quotate mark in original]</sic></p>
          <p>“Which way?," someone asked.<lb/>

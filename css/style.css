@@ -19,4 +19,5 @@ tei-supplied {
   font-style: bold;
 }
 tei-persName {color: red;}
+tei-PersName {font-style: italic;}
 tei-placeName {color: green;}
