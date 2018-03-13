@@ -12,7 +12,7 @@
                              <persName xml:id="PMG">Philip Michael Garrow</persName>
                              <orgName xml:id="ENGL-688K">English 688K Critical Topics In Digital Studies</orgName>
                              </author>
-            <respStmt><resp>To employ TEI in an ethical, responsible manner that increases the visibility of black digital humanities</resp>
+            <respStmt><resp>To employ TEI in an ethical, responsible manner that increases the visibility of Black digital humanities</resp>
             <resp>Encoded by</resp>
             <persName ref="#PMG">Philip Michael Garrow</persName>
               <note>The author owes a heavy debt to other mentors for their assistance in the execution of this project. TEI and HTML encoding tips provided by Dr. Raff Viglianti, University of Maryland Maryland Institute for Technology in the Humanities (MITH). TEI Header template and profile description format provided by Dr. Jessica Lu, University of Maryland Postdoctoral Associate to the African American History, Culture, and Digital Humanities (AADHum) initiative.</note>
@@ -120,8 +120,8 @@
            <cb n="1"/>
          <p><placeName>NEW YORK</placeName><orgName ref="A-P">(AP)</orgName>--Congressman-elect <persName><forename>Adam</forename> <forename>Clayton</forename> <surname>Pow­-<lb break="no"/>­­
           ell</surname></persName> hailed as “monumental" yesterday a <orgName>U.S. Supreme Court</orgName><lb/>
-           decision to hear his suit against the House of Representa­-<lb break="no"/>
-            tives’ decision to exclude him in 1967.</p>
+           decision to hear his suit against the <orgName>House of Representa­-<lb break="no"/>
+            tives</orgName>’ decision to exclude him in 1967.</p>
          <p> Proclaiming himself “extremely gratified," <persName><surname>Powell</surname></persName> told<lb/>
            a news conference the decision showed “we are now living<lb/>
             again in a republic with three branches of government."</p>
