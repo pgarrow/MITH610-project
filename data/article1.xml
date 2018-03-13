@@ -78,11 +78,11 @@
                      <personGrp>
                          <persName xml:id="MAUMAU" ref="https://lccn.loc.gov/no2012060148">the Mau Mau rebellion</persName>
                          <idno type="LCAF">no 2012060148 </idno>
-                         <note>The Mau Mau was a collection of rebel soldiers from a variety of tribal peoples who banded together to oppose colonial opression in Kenya from 1952-1964.</note>
+                         <note>The Mau Mau was a collection of rebel soldiers from a variety of tribal peoples who banded together to oppose colonial opression in Kenya from 1952-1964. It is used twice in the article.</note>
                      </personGrp>
                      <personGrp>
                        <persName xml:id="NEGRO">the Negro people (historically gendered male)</persName>
-                       <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American. It is used twice in the article.</note>
+                       <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American. It is used three times in the article.</note>
                    </personGrp>
                        <person>
                            <persName xml:id="POWELL" ref="https://lccn.loc.gov/n82012171">
