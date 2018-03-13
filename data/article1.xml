@@ -75,7 +75,12 @@
                        <persName xml:id="BLK">Black and African American people</persName>
                        <note>This person group is a current accepted term for what the original text sometimes labels "the Negro." It is used twice in the article.</note>
                    </personGrp>
-                   <personGrp>
+                     <personGrp>
+                         <persName xml:id="MAUMAU" ref="https://lccn.loc.gov/no2012060148">the Mau Mau rebellion</persName>
+                         <idno type="LCAF">no 2012060148 </idno>
+                         <note>The Mau Mau was a collection of rebel soldiers from a variety of tribal peoples who banded together to oppose colonial opression in Kenya from 1952-1964.</note>
+                     </personGrp>
+                     <personGrp>
                        <persName xml:id="NEGRO">the Negro people (historically gendered male)</persName>
                        <note>Antiquated term for the group of people that now more widely identify themselves as Black and or African American. It is used twice in the article.</note>
                    </personGrp>
@@ -159,8 +164,8 @@
          <p>A younger bearded sympathi-<lb break="no"/>­
          zer shouted that violence was<lb/>
           necessary. “The only way is<lb/>
-           the <orgName>Mau Mau</orgName> way," he screamed.<lb/>
-            “Let’s use <orgName>Mau Mau</orgName> tactics,"<lb/>
+           the <persName>Mau Mau</persName> way," he screamed.<lb/>
+            “Let’s use <persName>Mau Mau</persName> tactics,"<lb/>
              he tried again. He was shat-<lb break="no"/>­
              ­tered by the cries of “Peace,<lb/>
               <persName>Brother</persName>" amidst the general si-<lb break="no"/>­
